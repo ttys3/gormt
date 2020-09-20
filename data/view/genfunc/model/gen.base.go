@@ -3,7 +3,7 @@ package model
 import (
 	"context"
 
-	"github.com/jinzhu/gorm"
+	"gorm.io/gorm"
 )
 
 var globalIsRelated bool // 全局预加载

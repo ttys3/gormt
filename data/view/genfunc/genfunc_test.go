@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/jinzhu/gorm"
+	"gorm.io/gorm"
 	"github.com/xxjwxc/gormt/data/view/genfunc/model"
 
 	_ "github.com/go-sql-driver/mysql"

@@ -12,7 +12,7 @@ package {{.PackageName}}
 import (
 	"context"
 
-	"github.com/jinzhu/gorm"
+	"gorm.io/gorm"
 )
 
 var globalIsRelated bool = true  // 全局预加载

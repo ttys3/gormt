@@ -3,7 +3,7 @@ package model
 import (
 	"fmt"
 
-	"github.com/jinzhu/gorm"
+	"gorm.io/gorm"
 )
 
 type _AccountMgr struct {
